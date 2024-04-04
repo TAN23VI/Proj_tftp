@@ -1,6 +1,6 @@
 **INTRODUCTION**
 
-A simple Trivial File Transfer Protocol (TFTP) server was implemented in C programming language using socket API. The server listens on a server-specified port. It can handle read requests and serve files via TFTP protocol as defined in RFC 1350. It only serves files from a server specified directory and user can request a file by name in that directory. Implementation and testing of the server took around 25-30 hours and code compiles without memory errors or warnings.
+A simple Trivial File Transfer Protocol (TFTP) server was implemented in C programming language using socket API. The server listens on a server-specified port. It can handle read requests and serve files via TFTP protocol as defined in RFC 1350. It only serves files from a server specified directory and user can request a file by name in that directory. 
 
 **STRUCTURE EXPLAINED**
 
