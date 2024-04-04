@@ -33,11 +33,11 @@ Handling of RRQ / WRQ's mode string:
 A mode in TFTP is used to specify how files are written
 
 It supports three modes:
-**1.netascii**: Modified version of ascii contains 8 bits instead of the regular 7
+**1.Netascii**: Modified version of ascii contains 8 bits instead of the regular 7
 
-**2.octet**: raw 8 bit bytes
+**2.Octet**: raw 8 bit bytes
 
-**3.mail netascii**: (obsolete and is not implemented)
+**3.Mail netascii**: (obsolete and is not implemented)
 
 The server has no need for the mode string in the RRQ recieved since write requests aren't allowed, we only read from a file to a message that is sent to the client. If the server implemented uploading files to the server (WRQ) it would have to handle the mode to write to the file on the server. The client specifies what mode to use when it sends a RRQ and the server recieves it, but doesn't handle it in any specific way. The client only uses it to specify how it interprets the data and writes it to the file.
 
